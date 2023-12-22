@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import part1 from "../assets/ALG.png";
 import part2 from "../assets/MCFSP.png";
 import part3 from "../assets/ALA.jpeg";
+import aboutImage from "../assets/AboutALU.png";
 
 
 const About = () => {
@@ -35,7 +36,7 @@ const About = () => {
             </div>
             <div class="relative w-full px-4 mb-10 md:w-1/2 lg:mb-0">
               <img
-                src="https://i.postimg.cc/HsSPvTq8/pexels-fauxels-3184357.jpg"
+                src={aboutImage}
                 alt=""
                 class="relative z-40 object-cover w-full rounded-md md:h-96 h-44"
               />

@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import aboutImage from "../assets/AboutALU.png";
 
 const Contact = () => {
   return (
@@ -22,7 +23,7 @@ const Contact = () => {
         <div class="absolute bottom-0 left-0 hidden w-full h-full lg:block lg:w-4/12">
           <img
             class="object-cover w-full h-full"
-            src="https://i.postimg.cc/ncQQ9Vjt/pexels-quang-nguyen-vinh-3355777.jpg"
+            src={aboutImage}
             alt=""
           />
         </div>
