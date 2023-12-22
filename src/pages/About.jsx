@@ -21,24 +21,24 @@ const About = () => {
           nemo iure?
         </p>
       </div>
-      <section class="flex items-center bg-blue-950 lg:h-screen font-poppins">
-        <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
-          <div class="flex flex-wrap items-center">
-            <div class="w-full px-4 mb-10 md:w-1/2 lg:mb-0 ">
-              <h2 class="mb-4 text-2xl font-bold text-white">
+      <section className="flex items-center bg-blue-950 lg:h-screen font-poppins">
+        <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+          <div className="flex flex-wrap items-center">
+            <div className="w-full px-4 mb-10 md:w-1/2 lg:mb-0 ">
+              <h2 className="mb-4 text-2xl font-bold text-white">
                 We help you stay connected to your Alumni community
               </h2>
-              <p class="mb-4 text-base leading-7 text-white">
+              <p className="mb-4 text-base leading-7 text-white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam
               </p>
             </div>
-            <div class="relative w-full px-4 mb-10 md:w-1/2 lg:mb-0">
+            <div className="relative w-full px-4 mb-10 md:w-1/2 lg:mb-0">
               <img
                 src={aboutImage}
                 alt=""
-                class="relative z-40 object-cover w-full rounded-md md:h-96 h-44"
+                classNmae="relative z-40 object-cover w-full rounded-md md:h-96 h-44"
               />
             </div>
           </div>
